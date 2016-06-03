@@ -5,6 +5,8 @@ const http         = require('http'),
       sysInfo      = require('./utils/sys-info'),
       env          = process.env;
 
+contentTypes['ttf'] = 'application/octet-stream';
+
 let server = http.createServer(function (req, res) {
   let url = req.url;
   if (url == '/') {
