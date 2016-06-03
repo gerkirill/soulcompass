@@ -1,8 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100);
+@font-face {
+  font-family: "ArchitectsDaughter";
+  src: url(fonts/ArchitectsDaughter.ttf);
+}
 body {
-  font: 20px/1.5 'Ubuntu', sans-serif;
+  font: 20px/1.5 'ArchitectsDaughter', sans-serif;
   color: #F0E7D5;
-  background: #555 url('asphalt.png');
+  background: #ffffff;
   text-align: center;
   margin: 0;
 }
@@ -13,18 +17,20 @@ header, footer {
 }
 
 header {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'ArchitectsDaughter', sans-serif;
   padding-bottom: 10px;
   margin: 140px 0 0;
   font-size:10em;
+  color: #000;
 }
 
 header a {
- font-size:0.2em;
+ font-size:0.1em;
 }
 
 header h1 {
-  font-size:0.2em;
+  font-size:0.3em;
+  text-transform: uppercase;
 }
 
 main {
@@ -38,7 +44,7 @@ footer {
 }
 
 a:link, a:visited {
-  color: #78B642;
+  color: #000;
   text-decoration: none;
 }
 
