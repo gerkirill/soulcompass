@@ -6,6 +6,7 @@ const http         = require('http'),
       env          = process.env;
 
 contentTypes['ttf'] = 'application/octet-stream';
+contentTypes['js'] = 'application/javascript';
 
 let server = http.createServer(function (req, res) {
   let url = req.url;
